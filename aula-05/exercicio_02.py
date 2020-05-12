@@ -6,8 +6,8 @@ def main():
     menu = {
         '1': adiciona_item,
         '2': exibe_lista,
-        '3': retorna_menor_valor,
-        '4': retorna_maior_valor,
+        '3': imprime_menor_valor,
+        '4': imprime_maior_valor,
         '5': exit
     }
 
