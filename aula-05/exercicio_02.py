@@ -17,8 +17,8 @@ def main():
 
     while True:
         opt = input('Informe a operação desejada:\n1)Incluir número na lista\t2)Imprimir items da lista'
-                    '\t3)Verificar o menor valor na lista\t4)Verificar o maior valor na lista\t'
-                    '\t5)Verificar o menor valor par\t6)Verificar o maior valor par\t'
+                    '\t3)Verificar o menor valor na lista\t4)Verificar o maior valor na lista\n'
+                    '5)Verificar o menor valor par\t6)Verificar o maior valor par'
                     '\t7)Verificar o menor valor impar\t8)Verificar o maior valor impar\t9)Sair\n')
         if opt in menu.keys():
             menu[opt](numbers)
